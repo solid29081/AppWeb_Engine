@@ -22,13 +22,13 @@ class Api:
 
 def main():
     current_dir = os.path.abspath(os.path.dirname(__file__))
-    html_path = https://web.site 
+    html_path = os.path.join(current_dir, "assets", "index.html")
     icon_path = os.path.join(current_dir, "assets", "icon.ico")
 
     api = Api()
     window = webview.create_window(
-        title="AppWeb_Engine",
-        url=f"file://{html_path}",
+        title="Nove",
+        url=f"https://novenovetus.xyz",
         js_api=api,
         width=900,
         height=700,
