@@ -8,4 +8,6 @@ title="AppWeb_Engine", (line 30)
 
 Really fucking simple.
 
+If you really want to, you can change the index.html in the assets folder to make the app using HTML
+
 Skidded peice of shit.
