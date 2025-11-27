@@ -27,8 +27,8 @@ def main():
 
     api = Api()
     window = webview.create_window(
-        title="Nove",
-        url=f"https://novenovetus.xyz",
+        title="AppWeb_Engine",
+        url=f"file://{html_path}",
         js_api=api,
         width=900,
         height=700,
